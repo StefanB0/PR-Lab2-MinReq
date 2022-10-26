@@ -58,9 +58,6 @@ func (r *Receptionist) forwardRequest(request OrderRequest, url string) {
 	payloadBuffer := new(bytes.Buffer)
 	json.NewEncoder(payloadBuffer).Encode(request)
 
-	// fmt.Printf("R payloadBuffer: %v\n", payloadBuffer)
-	// fmt.Printf("request: %v\n", request)
-
 	req, _ := http.NewRequest("POST", url, payloadBuffer)
 	client := &http.Client{}
 	client.Do(req)

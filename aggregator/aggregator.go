@@ -7,8 +7,6 @@ import (
 const (
 	RECEPTION_NR        = 5
 	DELIVERY_NR         = 5
-	DELIVERY_TIME       = 30
-	CHAIN_DELIVERY_TIME = 10
 	PRODUCER_PORT       = ":8001"
 	LOCAL_PORT          = ":8002"
 	CONSUMER_PORT       = ":8003"
