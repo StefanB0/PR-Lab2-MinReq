@@ -1,0 +1,27 @@
+[
+    {
+        "order_id": 1,
+        "name": "Burger",
+        "prep_time": 5
+    },
+    {
+        "order_id": 1,
+        "name": "French Fries",
+        "prep_time": 15
+    },
+    {
+        "order_id": 1,
+        "name": "Big Mac",
+        "prep_time": 10
+    },
+    {
+        "order_id": 1,
+        "name": "Ice-cream",
+        "prep_time": 5
+    },
+    {
+        "order_id": 1,
+        "name": "Chicken wings",
+        "prep_time": 15
+    }
+]
